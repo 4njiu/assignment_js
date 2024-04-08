@@ -2,7 +2,7 @@ console.log("test")
 async function myFunction(){
     try{
 
-         const myData =  await fetch (`./data/content.json`)  ;
+         const myData =  await fetch (`../data/content.json`)  ;
          
          const information = await myData.json();
          console.log(information);
