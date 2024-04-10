@@ -1,19 +1,9 @@
 {
   "toolbar": "Overview",
-    "leftcard-title": "Unresolved ticket",
+    "leftcardtitle": "Unresolved ticket",
     "view-details": "View details",
-    "support": "Group:Support",
+    "group": "Support",
 
-    "icons": [
-      {
-        "src": "assets/icon/search.svg",
-        "alt": "search icon"
-      },
-      {
-        "src": "assets/icon/new.svg",
-        "alt": "notification icon"
-      }
-    ],
     "vrcontainer": {
       "vr": {}
     },
@@ -41,9 +31,9 @@
       "title": "On hold",
       "number": 60
     }
-  ],
-  "bottomLeftTable": {
-    "statuses": [
+  ]
+},
+  "bottomLeftTable": [
       {
         "status": "Waiting on Feature Request",
         "count": 4238
@@ -61,6 +51,4 @@
         "count": 281
       }
     ]
-  }
-}
 }
