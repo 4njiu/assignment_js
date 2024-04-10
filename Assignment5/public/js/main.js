@@ -12,7 +12,7 @@ async function myFunction() {
 
         // You can perform additional operations here with the fetched data
     // const toolBarz = document.querySelector("");
-    const name = document.getElementById('name');
+    const profileContainer = document.getElementById("profilecontainer");
     const graphContainer = document.querySelector("overviewcardsZ");
     // var OverviewDiv = document.createElement("div");
     // overviewcards.appendChild(OverviewDiv);
@@ -26,7 +26,20 @@ async function myFunction() {
     // overviewcards.setAttribute("class", "row");
     // overviewcards.setAttribute("id", "overviewcards");
 
-// ******************4 Overview Cards******************
+// *********** Profile text and pic ***********
+    const fullName = document.createElement('div');
+        fullName.classList.add("p-2");
+        fullName.textContent=data.name
+        profileContainer.appendChild(fullName);
+    const imageContainer = document.createElement('div');
+        imageContainer.classList.add("p-2");
+        const profileImage = document.createElement('img');
+        profileImage.setAttribute("src",data.photo);
+        profileImage.setAttribute("alt",`profile image of ${data.name}`);
+        imageContainer.appendChild(profileImage);
+        profileContainer.appendChild(imageContainer);
+
+// ***********4 Overview Cards***********
 
     data.graphContainer.overviewCards.forEach(item=>{
         console.log(item)
