@@ -149,32 +149,7 @@
         </div>
 
             <!-- overview cards -->
-           <div class="row overviewcardsZ" id="overviewcards">
-                <!-- <div class="card text-center mb-3 mx-3 " style="width: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Unresolved</h5>
-                        <p class="card-number">60</p>
-                    </div>
-                </div>
-                <div class="card text-center mb-3 mx-3" style="width: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Overdue</h5>
-                        <p class="card-number">60</p>
-                    </div>
-                </div>
-                <div class="card text-center mb-3 mx-3" style="width: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Open</h5>
-                        <p class="card-number">60</p>
-                    </div>
-                </div>
-                <div class="card text-center mb-3 mx-3" style="width: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">On hold</h5>
-                        <p class="card-number">60</p>
-                    </div>
-                </div>  -->
-            </div>
+           <div class="row overviewcardsZ" id="overviewcards"></div>
 
             <!-- Today's trends -->
             <div class="text-center" id="todaystrend">
@@ -185,84 +160,25 @@
             <!-- unsolved ticket and tasks -->
 
             <div class="row" id="bottomcards">
-
                 <!-- bottom left card" -->
-                <div class="col-md-6 mb-3">
-                    <div class="card p-3" id="leftcard">
+                <div class="col-md-6 mb-3 cardContainer">
+                    <div class="card p-3" >
                         <!-- title -->
+                        <div id="leftcard"></div>
                         <!-- bottom left table -->
                         <div class="bottomLeftTable  mb-3">
                             <table class="table mb-3 ">
-                                <tbody id="tableDataContainer">
-                                </tbody>
+                                <tbody id="tableDataContainer"></tbody>
                             </table>
                         </div>
-
                     </div>
-
                 </div>
 
 
                 <!-- bottom right card" -->
                 <div class="col-md-6 mb-3">
                     <div class="card  mx-3" id="rightcard">
-
-                        <!-- title -->
-                        <div class="card-body d-flex flex-column ">
-                            <div class="c-details d-flex d-flex justify-content-between align-items-end">
-                                <h5 class="mb-0">Tasks</h5>
-                                <p class="card-link">View all</p>
-                            </div>
-                            <h6>Today</h6>
-
-                        </div>
-
-
                         <!-- list -->
-                        <ul class="list-group">
-
-
-                            <!-- create new task -->
-                            <li class="list-group-item">
-
-                                <p>Create new task</p>
-                                <img src="assets/img/inactive.png" alt="create button">
-
-                            </li>
-
-                            <!-- radios list -->
-                            <li class="list-group-item">
-                                <div>
-                                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                        id="firstRadio" checked>
-                                    <label class="form-check-label" for="firstRadio">Finish ticket update</label>
-                                </div>
-
-                                <span class="badge text-bg-warning">URGENT</span>
-                            </li>
-                            <li class="list-group-item">
-
-                                <div>
-                                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                        id="secondRadio">
-                                    <label class="form-check-label" for="secondRadio">Create new ticket example</label>
-
-                                </div>
-
-                                <span class="badge text-bg-success">NEW</span>
-                            </li>
-                            <li class="list-group-item">
-                                <div>
-                                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                        id="thirdRadio">
-                                    <label class="form-check-label" for="thirdRadio">Update ticket report</label>
-
-                                </div>
-
-                                <span class="badge text-bg-light">DEFAULT</span>
-                            </li>
-                        </ul>
-
 
                     </div>
 

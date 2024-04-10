@@ -1,54 +1,75 @@
 {
   "toolbar": "Overview",
-    "leftcardtitle": "Unresolved ticket",
-    "view-details": "View details",
-    "group": "Support",
+  "leftcardtitle": "Unresolved ticket",
+  "view-details": "View details",
+  "group": "Support",
 
-    "vrcontainer": {
-      "vr": {}
-    },
-    "name": "Jones Ferdinand",
-    "photo": "assets/img/photo.png",
-    
+  "vrcontainer": {
+    "vr": {}
+  },
+  "name": "Jones Ferdinand",
+  "photo": "assets/img/photo.png",
+
   "graphContainer": {
     "overviewCards": [
-    {
-
-        "title":"Unresolved",
+      {
+        "title": "Unresolved",
         "number": 60
-      
-      
-    },
-    {
-      "title": "Overdue",
-      "number": 60
-    },
-    {
-      "title": "Open",
-      "number": 60
-    },
-    {
-      "title": "On hold",
-      "number": 60
-    }
-  ]
-},
-  "bottomLeftTable": [
-      {
-        "status": "Waiting on Feature Request",
-        "count": 4238
       },
       {
-        "status": "Awaiting Customer Response",
-        "count": 1005
+        "title": "Overdue",
+        "number": 60
       },
       {
-        "status": "Awaiting Developer Fix",
-        "count": 914
+        "title": "Open",
+        "number": 60
       },
       {
-        "status": "Pending",
-        "count": 281
+        "title": "On hold",
+        "number": 60
       }
     ]
+  },
+  "bottomLeftTable": [
+    {
+      "status": "Waiting on Feature Request",
+      "count": 4238
+    },
+    {
+      "status": "Awaiting Customer Response",
+      "count": 1005
+    },
+    {
+      "status": "Awaiting Developer Fix",
+      "count": 914
+    },
+    {
+      "status": "Pending",
+      "count": 281
+    }
+  ],
+  "bottomRightTable": {
+    "title": "Tasks",
+    "btn": "View all",
+    "day": "Today",
+    "tasklist": [
+      {
+        "task": "Create new task",
+        "status": "inactive",
+        "src": "assets/img/inactive.png"
+      },
+      {
+        "task": "Finish ticket update",
+        "status": "URGENT"
+      },
+      {
+        "task": "Create new ticket example",
+        "status": "NEW"
+      },
+      {
+        "task": "Update ticket report",
+        "status": "DEFAULT"
+      }
+    ]
+  }
 }
