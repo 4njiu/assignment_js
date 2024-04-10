@@ -14,6 +14,7 @@ async function myFunction() {
     // const toolBarz = document.querySelector("");
     const profileContainer = document.getElementById("profilecontainer");
     const graphContainer = document.querySelector("overviewcardsZ");
+    const bottonLeftContainer = document.getElementById("leftcard")
     // var OverviewDiv = document.createElement("div");
     // overviewcards.appendChild(OverviewDiv);
     // console.log(data.graphContainer.overviewCards[0].class)
@@ -57,10 +58,13 @@ async function myFunction() {
     
     }
         );
-    data.bottomLeftTable.statuses.forEach(item=>{
-    }
+
+// ***********bottom left card***********
+
+    const bottomLeftCard = document.createElement('div');
+    bottom
+
         
-        )
 
     // var bottomcards = document.getElementById("bottomcards");
     // var bottomDiv = document.createElement("div"); 
