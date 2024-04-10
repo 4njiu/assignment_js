@@ -25,11 +25,6 @@ async function myFunction() {
     // graphContainer.appendChild(overviewcards);
     // overviewcards.setAttribute("class", "row");
     // overviewcards.setAttribute("id", "overviewcards");
-    if (userName) {
-        if (userName === 'Jones Ferdinand') {
-            console.log('Hello, Alice!');
-          }
-      }
 
 // ******************4 Overview Cards******************
 
