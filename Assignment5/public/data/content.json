@@ -1,5 +1,54 @@
 {
-    "statuses" :[
+  "toolbar": 
+    "overview": "Overview",
+    "name":"Jones Ferdinand",
+    "leftcard-title": "Unresolved ticket",
+    "view-details": "View details",
+    "support": "Group:Support",
+
+    "icons": [
+      {
+        "src": "assets/icon/search.svg",
+        "alt": "search icon"
+      },
+      {
+        "src": "assets/icon/new.svg",
+        "alt": "notification icon"
+      }
+    ],
+    "vrcontainer": {
+      "vr": {}
+    },
+    "name": "Jones Ferdinand",
+    "photo": "assets/img/photo.png"
+  },
+  "graphContainer": {
+    "overviewCards": [
+    {
+      "class": "card text-center mb-3 mx-3 ",
+      "style": "width: 15rem;",
+      "title": "Unresolved",
+      "card-content":{
+        "title":"Unresolved",
+        "number": 60
+      }
+      
+    },
+    {
+      "title": "Overdue",
+      "number": 60
+    },
+    {
+      "title": "Open",
+      "number": 60
+    },
+    {
+      "title": "On hold",
+      "number": 60
+    }
+  ],
+  "bottomLeftTable": {
+    "statuses": [
       {
         "status": "Waiting on Feature Request",
         "count": 4238
@@ -18,3 +67,4 @@
       }
     ]
   }
+}

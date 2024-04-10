@@ -1,38 +1,22 @@
-console.log("test")
-async function myFunction(){
-    try{
+console.log("test");
 
-         const myData =  await fetch (`../data/content.json`)  ;
-         const information = await myData.json();
-         console.log(information);
-        //  console.log(foobar.siteName);
+async function myFunction() {
+    try {
+        const response = await fetch("../data/content.json");
+        const data = await response.json();
 
-        //  const heading = document.querySelector('h1');
-        //  heading.innerHTML= foobar.siteName;
+        // Extracting data from the JSON object
+        const { toolbar, overviewCards, bottomLeftTable } = data;
+        console.log(toolbar);
+        console.log(overviewCards);
+        console.log(bottomLeftTable);
 
-         //get 'nav ul' in a variable
-            // const navHolder = document.querySelector('nav ul');
-            // console.log(foobar.mainNav);
-            // foobar.mainNav.forEach(menuitem =>{
-            //     console.log(menuitem);
-            //     var listItem = document.createElement('li');
+        // You can perform additional operations here with the fetched data
 
-            //     listItem.innerHTML = `<a href="${menuitem.url}>" ${menuitem.text}</a>`;
-            //     navHolder.appendChild(listItem)
-
-            // })
-
-
-
-    }catch(error){
-        console.warn(  ` Nope: ${error}`)
-
-
+    } catch (error) {
+        console.warn(`Nope: ${error}`);
     }
-
-
-
-
 }
 
+// Call the async function
 myFunction();
